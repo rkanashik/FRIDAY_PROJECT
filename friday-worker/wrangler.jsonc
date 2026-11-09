@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "friday",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-05",
+  "workers_dev": true,
+  "vars": {
+    "SUPABASE_URL": "https://sohpyxrftoylivxdvfgk.supabase.co",
+    "OLLAMA_MODEL": "minimax-m3:cloud",
+    "GEMINI_MODEL": "",
+    "OLLAMA_FREE_CREDITS_CONFIRMED": "false",
+    "GEMINI_FREE_TIER_CONFIRMED": "false"
+  }
+}
